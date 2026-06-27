@@ -1,0 +1,9 @@
+ps -ef
+ps -ef | grep "python"
+
+| --> send the output of first command to second command.
+set -x ---> runs script in debug mode
+set -e ---> exit the script when there is an error.
+set -o pipefail --> use in combination with set -e 
+
+awk -filter out the any column info from output
